@@ -10,3 +10,5 @@ Projet de transat qui s'oriente avec le Soleil
 
 
 // PARTIE PHYSIQUE
+
+trouver une chaise à imprimer en 3D
