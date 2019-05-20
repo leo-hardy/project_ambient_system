@@ -3,7 +3,7 @@
 Projet de transat qui s'oriente avec le Soleil
 
 // PARTIE ANDROID
-
+  Android Studio 3.4
 
 
 // PARTIE ARDUINO
