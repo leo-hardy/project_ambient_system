@@ -8,6 +8,11 @@ Projet de transat qui s'oriente avec le Soleil
 
 // PARTIE ARDUINO
 
+Photoresistance :
+https://www.carnetdumaker.net/articles/mesurer-la-luminosite-ambiante-avec-une-photoresistance-et-une-carte-arduino-genuino/
+
+Servomoteur :
+https://itechnofrance.wordpress.com/2013/05/05/utilisation-du-servomoteur-sg90-avec-larduino/
 
 // PARTIE PHYSIQUE
 
