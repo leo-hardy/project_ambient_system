@@ -4,6 +4,9 @@ Projet de transat qui s'oriente avec le Soleil
 
 // PARTIE ANDROID
   Android Studio 3.4
+  
+    2 pages : 1 pour se connecter avec le transat 
+              1 pour effectuer les rotations (cf storyboard) 
 
 
 // PARTIE ARDUINO
