@@ -2,6 +2,10 @@
 
 Projet de transat qui s'oriente avec le Soleil
 
+Google Docs :
+https://docs.google.com/document/d/14kbNNriCGO3ROewEv9dNSCKJLtN0ahLx7jN9XRs85KM/edit
+
+
 // PARTIE ANDROID
   Android Studio 3.4
   
