@@ -9,8 +9,8 @@ https://docs.google.com/document/d/14kbNNriCGO3ROewEv9dNSCKJLtN0ahLx7jN9XRs85KM/
 // PARTIE ANDROID
   Android Studio 3.4
   
-    2 pages : 1 pour se connecter avec le transat 
-              1 pour effectuer les rotations (cf storyboard) 
+    1 page d'accueil + 2 pages : 1 obtenir la météo 
+                                 1 pour effectuer les rotations (cf storyboard) 
 
 
 // PARTIE ARDUINO
