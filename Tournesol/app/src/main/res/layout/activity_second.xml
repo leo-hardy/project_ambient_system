@@ -1,34 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background">
-
-    <Button
-        android:id="@+id/boutonGauche"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_gravity="center_vertical"
-        android:text="Orienter vers la gauche" />
+    android:background="@drawable/background"
+    android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        tools:srcCompat="@tools:sample/avatars[0]"
-        android:onClick="tournerGauche"/>
+        android:id="@+id/imageViewTransat"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_weight="10"
+        app:srcCompat="@drawable/image5"
+        tools:src="@drawable/image5" />
 
-    <Button
-        android:id="@+id/boutonDroite"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
         android:layout_gravity="center_vertical"
-        android:layout_weight="1"
-        android:text="Orienter vers la droite"
-        android:onClick="tournerDroite"/>
+        android:background="@drawable/background"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boutonGauche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:baselineAligned="false"
+            android:onClick="tournerGauche"
+            android:text="Orienter vers la gauche"
+            app:layout_constraintLeft_toLeftOf="@id/imageViewTransat"
+            app:layout_constraintTop_toBottomOf="@id/imageViewTransat" />
+
+        <Button
+            android:id="@+id/boutonDroite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:baselineAligned="false"
+            android:onClick="tournerDroite"
+            android:text="Orienter vers la droite"
+            app:layout_constraintLeft_toRightOf="@id/boutonGauche" />
+
+    </LinearLayout>
+
+
 </LinearLayout>
+
